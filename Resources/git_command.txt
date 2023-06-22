@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "提交文件"
+git remote add origin git@github.com:gain-wyj/wyj_first.git  ssh方式
+git push -u origin master
+git status
+git diff
+git commit --amend
