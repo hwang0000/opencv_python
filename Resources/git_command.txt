@@ -6,3 +6,6 @@ git push -u origin master
 git status
 git diff
 git commit --amend
+git log
+git log --oneline
+
