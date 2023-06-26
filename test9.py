@@ -36,6 +36,7 @@ def getContours(img1, img2):
 
 if __name__ == '__main__':
     # part 9
+    # 图形检测
     img = cv2.imread("Resources/shape.png")
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     imgBlur = cv2.GaussianBlur(imgGray, (7, 7), 1)
